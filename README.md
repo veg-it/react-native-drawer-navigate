@@ -1,5 +1,6 @@
 # portfolio-react-native-drawer-navigate
-Empty project with drawer navigate
+Portfolio app with:
+- Navigation Drawer
 
 ### Commands
 > npm install @react-navigation/native
