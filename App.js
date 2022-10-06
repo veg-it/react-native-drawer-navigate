@@ -12,6 +12,22 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 // npm install @react-navigation/drawer
 // expo install react-native-gesture-handler react-native-reanimated
 
+//Babel settig
+// module.exports = {
+//   presets: [
+//     ...
+//   ],
+//   plugins: [
+//     ...
+//     'react-native-reanimated/plugin',
+//   ],
+// };
+
+//commands for babel clear chache
+// yarn start --reset-cache
+// npm start -- --reset-cache
+// expo start -c
+
 // function HomeScreen() {
 function HomeScreen({navigation}) {
   return (
