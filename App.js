@@ -3,32 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-// import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-//Commands
-// npm install @react-navigation/native
-// expo install react-native-screens react-native-safe-area-context
-// npm install @react-navigation/native-stack
-// npm install @react-navigation/drawer
-// expo install react-native-gesture-handler react-native-reanimated
-
-//Babel settig
-// module.exports = {
-//   presets: [
-//     ...
-//   ],
-//   plugins: [
-//     ...
-//     'react-native-reanimated/plugin',
-//   ],
-// };
-
-//commands for babel clear chache
-// yarn start --reset-cache
-// npm start -- --reset-cache
-// expo start -c
-
-// function HomeScreen() {
 function HomeScreen({navigation}) {
   return (
     <View style={styles.container}>
@@ -54,7 +29,6 @@ function NotificationsScreen({navigation}) {
     </View>
   )
 }
-// const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 export default function App() {
@@ -67,16 +41,6 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-// export default function App() {
-//   return (
-//     <NavigationContainer>
-//       <Stack.Navigator>
-//         <Stack.Screen name='Home' component={HomeScreen} />
-//       </Stack.Navigator>
-//     </NavigationContainer>
-//   );
-// }
 
 const styles = StyleSheet.create({
   container: {
